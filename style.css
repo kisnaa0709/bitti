@@ -5,29 +5,44 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 3vw;
-    background-color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
   }
   
-  @keyframes example {
+  /* @keyframes example {
     0%   {color: red;}
     10%	{color: rgb(255, 170, 0);}
-    20%  {color: rgb(255, 247, 0);}
-    30%  {color: rgb(111, 255, 0);}
-    40%	{color:rgb(0, 255, 68);}
-    50%	{color: rgb(0, 247, 255);}
-    60%	{color: rgb(0, 102, 255);}
-    70%	{color: rgb(34, 0, 255);}
-    80%	{color: rgb(110, 0, 255);}
-    90%  {color: rgb(255, 59, 255);}
-    100% {color: rgb(253, 23, 23);}
-  }
+    20%  {color: rgb(255, 147, 47);}
+    30%  {color: rgb(97, 218, 4);}
+    40%	{color:rgb(3, 108, 31);}
+    50%	{color: rgb(0, 183, 255);}
+    60%	{color: rgb(0, 71, 178);}
+    70%	{color: rgb(3, 46, 131);}
+    80%	{color: rgb(65, 0, 150);}
+    90%  {color: rgb(210, 0, 210);}
+    100% {color: rgb(156, 0, 0);}
+  } */
 img{
     padding-top: 3vw;
-    width:20vh;
+    width:45vh;
 }
-.img{
-    width: 10vh;
+h1{
+  font-size:35px;
+}
+div{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  padding: 3px;
+  margin: 30px;
+}
+#no{
+  padding: 3px;
+  margin: 30px;
+  position:relative;
 }

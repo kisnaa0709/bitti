@@ -8,7 +8,7 @@
     <title>God is With U</title>
 </head>
 <body>
-    <h1>🤗🙏God have to Give U Full Blessing Tomorrow😇🤞</h1>
+    <!-- <h1>🤗🙏God have to Give U Full Blessing Tomorrow😇🤞</h1>
     <br>
     <h1>🤲I Wish that u Earn More and More Profit😊</h1>
 
@@ -28,27 +28,54 @@
 
 
     <audio id="audio" src="asdf.mp3"></audio>
-    <audio id="bell" src="bell.wav"></audio>
+    <audio id="bell" src="bell.wav"></audio> -->
+
+    <h1>Can we Hang out Sometime ??</h1>
+
+    <img src="https://media.tenor.com/oMSXsOfcGMcAAAAC/please-pretty.gif" alt="">
+    
+    <div>
+        <button onclick="run()">Yeah done 🖤</button>     
+        <button ID="bn" onmousemove="fun()">Noo!!😤</button> 
+           
+    </div>
 
 
     <script>
 
-    function bell() {
-        var audio = document.getElementById("bell");
-        audio.play(); 
-        function ring() {
-            alert("You are Being Blessed 🤞🏻🤞🏻")
-        }
-        ring();
+    function run(){
+      alert("YEY THANK U LOVE U >< ")
+    }
+    var flag=1;
+    const bn = document.getElementById("bn");
+    function fun(){
+      if (flag === 1) {
+        bn.style.top = "100px";
+        bn.style.right = "400px"
+        flag = 2;
+      } 
+      else if (flag === 2) {
+        bn.style.top = "-100px";
+        bn.style.right = "100px"
+        flag = 3; 
       }
-      function play() {
-        var audio = document.getElementById("audio");
-        audio.play();
-      }
-      function pause() {
-        var audio = document.getElementById("audio");
-        audio.pause();
-      }
+    }
+    // function bell() {
+    //     var audio = document.getElementById("bell");
+    //     audio.play(); 
+    //     function ring() {
+    //         alert("You are Being Blessed 🤞🏻🤞🏻")
+    //     }
+    //     ring();
+    //   }
+    //   function play() {
+    //     var audio = document.getElementById("audio");
+    //     audio.play();
+    //   }
+    //   function pause() {
+    //     var audio = document.getElementById("audio");
+    //     audio.pause();
+    //   }
         
     </script>
 </body>
